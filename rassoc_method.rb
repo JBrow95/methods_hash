@@ -1,0 +1,3 @@
+def meth()
+	{}
+end
