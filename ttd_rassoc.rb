@@ -7,4 +7,7 @@ class TestRassocMethod < Minitest::Test
 		assert_equal(Hash, meth().class)
 	end
 
+	def test_if_hash_has_data
+		assert_equal([1,2,3], meth(){"nums"})
+	end
 end
